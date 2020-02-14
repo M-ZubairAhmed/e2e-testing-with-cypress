@@ -1,5 +1,7 @@
 # End to End testing with Cypress JS
 
+**Deck** : https://slides.com/mzubairahmed/cypress-testing
+
 ## Project setup
 ```
 <!-- Clone the repository -->
