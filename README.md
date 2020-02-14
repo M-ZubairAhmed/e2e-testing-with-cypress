@@ -1,7 +1,11 @@
-# e2e-testing-with-cypress
+# End to End testing with Cypress JS
 
 ## Project setup
 ```
+<!-- Clone the repository -->
+git clone https://github.com/M-ZubairAhmed/e2e-testing-with-cypress.git
+
+<!-- Install packages -->
 yarn install
 ```
 
