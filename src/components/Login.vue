@@ -10,7 +10,7 @@
     </h1>
 
     <!-- Card root -->
-    <div class="col-4 border p-5 rounded-lg shadow-lg mt-5">
+    <div class="col-8 border p-5 rounded-lg shadow-lg mt-5">
       <template v-if="!isLoggedIn">
         <!-- Login header -->
         <div class="text-center pb-4 font-italic">
@@ -19,7 +19,7 @@
 
         <!-- Error message -->
         <template v-if="isError && statusMessage.length !== 0">
-          <div class="alert alert-danger" role="alert">{{ statusMessage }}</div>
+          <div class="alert alert-danger" role="alert" data-cy="error">{{ statusMessage }}</div>
         </template>
 
         <!-- Success message -->

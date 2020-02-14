@@ -29,6 +29,19 @@ yarn test:unit
 yarn test:e2e
 ```
 
+##### Hot reloading tests
+1. Start the app
+
+```
+yarn serve
+```
+
+2. Start the test in separate terminal
+
+```
+yarn test:e2e --url <url-of-client-app>
+```
+
 ### Lints and fixes files
 ```
 yarn lint
